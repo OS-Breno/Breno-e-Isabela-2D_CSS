@@ -1,0 +1,5 @@
+Na primeira maneira, o estilo do texto é definido na linha 5, entre as tags <head> e <style>. A linha onde o estilo do texto é definido sabe qual texto definir pois ele tem uma identificação, e essa identificação é mencionada no espaço de seletor da linha.
+
+Na segunda maneira, o estilo do texto é definido já no atributo style da tag de texto, sem precisar de identificações, pois já é definido DENTRO da tag
+
+Na terceira maneira, o estilo do texto é definido em um arquivo externo, e na linha 11, a tag link acessa o conteúdo desse arquivo para aplicar na tag h5.
